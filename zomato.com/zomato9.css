@@ -1,0 +1,399 @@
+.D14{
+    height: 900px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.D141{
+    height: 200px;
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+}
+#D14h1{
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    position: absolute;
+    top: 50px;
+    left: 380px;
+}
+#d14d1{
+    background-color: rgb(254, 254, 255);
+    width: 75%;
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 380px;
+    border-radius: 20px;
+    text-align:center;
+    color: rgb(112, 115, 118);
+    border: 1px solid rgb(232, 228, 228);
+}
+#d14sum1{
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px;
+    color: black;
+    position: relative;
+    left: 10px;
+}
+#d14span1:hover{
+    color: black;
+}
+
+#d14d2{
+    background-color: rgb(254, 254, 255);
+    width: 75%;
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top:40px;
+    left: 380px;
+    border-radius: 20px;
+    text-align:center;
+    color: rgb(112, 115, 118);
+    border: 1px solid rgb(232, 228, 228);
+}
+#d14sum2{
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px;
+    color: black;
+    position: relative;
+    left: 85px;
+}
+#d14span2:hover{
+    color: black;
+}
+
+
+#d14d3{
+    background-color: rgb(254, 254, 255);
+    width: 75%;
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top:80px;
+    left: 380px;
+    border-radius: 20px;
+    text-align:center;
+    color: rgb(112, 115, 118);
+    border: 1px solid rgb(232, 228, 228);
+}
+#d14sum3{
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px;
+    color: black;
+    position: relative;
+   
+    right: 20px;
+}
+#d14span3{
+    word-spacing: 10px;
+}
+#d14span3:hover{
+    color: black;
+}
+
+
+
+
+#d14d4{
+    background-color: rgb(254, 254, 255);
+    width: 75%;
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top:120px;
+    left: 380px;
+    border-radius: 20px;
+    text-align:center;
+    color: rgb(112, 115, 118);
+    display:flex;
+    justify-content: left;
+    border: 1px solid rgb(232, 228, 228);
+}
+#d14sum4{
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px;
+    color: black;
+    position: relative;
+   
+    right: 40px;
+}
+#d14span4{
+    word-spacing: 10px;
+}
+#d14span4:hover{
+    color: black;
+}
+
+li::marker{
+    content: none;
+}
+#li1:hover{
+    color: black;
+}
+#li2:hover{
+    color: black;
+}
+#li3:hover{
+    color: black;
+}
+#li4:hover{
+    color: black;
+}
+#li5:hover{
+    color: black;
+}
+#listd141{
+    background-color: rgb(254, 254, 255);
+    width: 450px;
+    position: relative;
+    left: 50px; 
+   
+}
+li #listd141 ::marker{
+   content: none;
+}
+#listd142{
+    background-color: rgb(254, 254, 255);
+    width: 450px;
+    position: absolute;
+    top: 168px;
+    left: 500px; 
+}
+li #listd142 ::marker{
+    content: none;
+ }
+#listd143{
+    background-color: rgb(254, 254, 255);
+    width: 450px;
+    position: absolute;
+    top: 168px;
+    left: 900px; 
+}
+li #listd143 ::marker{
+    content: none;
+ }
+#listd144{
+    background-color: rgb(254, 254, 255);
+    width: 450px;
+    position: absolute;
+    top: 168px;
+    left: 1300px; 
+}
+li #listd144 ::marker{
+    content: none;
+ }
+#listd145{
+    background-color: rgb(254, 254, 255);
+    width: 450px;
+    position: absolute;
+    top: 168px;
+    left: 1700px; 
+}
+li #listd145 ::marker{
+    content: none;
+ }
+
+
+
+
+ .D15{
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(249, 246, 250);
+    position:relative;
+    top: 220px;
+    left: 0px;
+    right: 0px;
+ }
+ #D15n1{
+    height: 200px;
+    width: 100%;
+    background-color:  rgb(249, 246, 250);
+    position: relative;
+    top: 50px;
+ }
+ #D15n11{
+    height: 200px;
+    width: 20%;
+    background-color:  rgb(249, 246, 250);
+    position: absolute;
+    left: 380px;
+    
+ }
+ #D15n12{
+    height: 200px;
+    width: 20%;
+    background-color:  rgb(249, 246, 250);
+    position: absolute;
+    left: 2000px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+   
+ }
+ #D15n11m1{
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    left: 0px;
+    top: 60px;
+ }
+ #D15list1{
+    height: 70px;
+    width: 32%;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    margin: 100px;
+ }
+ #D15list2{
+    height: 70px;
+    width: 32%;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    
+ }
+ #D15n2{
+    height: 600px;
+    width: 100%;
+    background-color:  rgb(249, 246, 250);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+ .common1{
+    height:600px ;
+    width: 14%;
+    background-color:  rgb(249, 246, 250);
+    margin: 15px;
+    font-size: 30px;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+ }
+#LI1{
+
+    position: absolute;
+    top: 300px;
+}
+#LI2{
+
+    position: absolute;
+    top: 300px;
+}
+#d1511{
+    height: 60px;
+    width: 300px;
+    background-color:  rgb(249, 246, 250);
+}
+#d15im1{
+    height: 60px;
+    width:60px;
+}
+#d15im1:hover{
+    transform: scale(1.12);
+}
+#d15im2{
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 120px;
+    left: 105px;
+}
+#d15im2:hover{
+    transform: scale(1.12);
+}
+#d15im3{
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 120px;
+    left: 165px;
+}
+#d15im3:hover{
+    transform: scale(1.12);
+}
+#d15im4{
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 120px;
+    left: 228px;
+}
+#d15im4:hover{
+    transform: scale(1.12);
+}
+#d15im5{
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top: 125px;
+    left: 288px;
+}
+#d15im5:hover{
+    transform: scale(1.12);
+}
+#d1512{
+    height: 100px;
+    width: 300px;
+    background-color:  rgb(249, 246, 250);
+    position: relative;
+    top: 30px;
+}
+#d1513{
+    height: 100px;
+    width: 300px;
+    background-color:  rgb(249, 246, 250);
+    position: relative;
+    top: 30px;
+}
+#D15n3{
+    height: 200px;
+    width: 100%;
+    background-color:  rgb(249, 246, 250);
+    font-size: 30px;
+    position: relative;
+
+ 
+ }
+ #D15n3p1{
+    position: absolute;
+    left:380px;
+ }
+ #hr1{
+    height:1px;
+    width:75%;
+    background-color: black;
+ }
+ #li11:hover{
+    color: rgb(242, 0, 0);
+ }
+ #li12:hover{
+    color: rgb(242, 0, 0);
+ }
+ #li10:hover{
+    color: rgb(242, 0, 0);
+ }
+ #li13:hover{
+    color: rgb(242, 0, 0);
+ }
+ #ios:hover{
+    transform: scale(1.1);
+ }
+ #playstore:hover{
+    transform: scale(1.1);
+ }

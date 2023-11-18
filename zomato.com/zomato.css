@@ -1,0 +1,409 @@
+.D1{
+    height:210px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+   z-index: 1;
+
+}
+.D1d1{
+    height: 100px;
+    width: 49%;
+    position: absolute;
+    top:20px ;
+    left: 680px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    border:solid 1px rgb(236, 230, 230);
+}
+#D1id1{
+    height: 100px;
+    width:847px;
+    position: absolute;
+    top: 0px;
+    left: 580px;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 30px;
+    border: 0px;
+}
+#D1id1:focus{
+    border-color: aliceblue;
+}
+#D1id1:hover{
+    border: solid 0px rgb(255, 255, 255);
+}
+#D1id1::placeholder{
+    font-size: 30px;
+    font-weight: 100;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+}
+.D1d11{
+    height: 100px;
+    width: 9%;
+    position: absolute;
+    left: 470px;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+}
+#D1im1{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+#list{
+    height: 100px;
+    width: 29%;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    font-size: 30px;
+   font-weight: 100;
+   border: 0px;
+
+}
+#list:focus{
+    border: 0px;
+}
+#lf{
+    font-size: 30px;
+}
+#lf1{
+    font-weight:300;
+}
+#D1im2{
+    height: 60px;
+    width:60px;
+    position: absolute;
+    top: 25px;
+    left: -3px;
+}
+#D1bu1{
+    position: absolute;
+    top: 30px;
+    left: 2230px;
+    padding: 20px 30px;
+    font-size: 35px;
+    font-weight:10;
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px ;
+}
+#D1bu1:focus{
+   border: solid 3px brown;
+}
+#D1bu1:hover{
+    color: black;
+    font-weight:550;
+  
+ }
+ #D1bu2{
+    position: absolute;
+    top: 30px;
+    left: 2400px;
+    padding: 20px 30px;
+    font-size: 35px;
+    font-weight:10;
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px ;
+}
+#D1bu2:focus{
+    border: solid 3px brown;
+ }
+ #D1bu2:hover{
+     color: black;
+     font-weight:550;
+   
+  }
+  #D1im3{
+    height: 55px;
+    width: 250px;
+    position: absolute;
+    top: 42px;
+    left: 375px;
+  }
+  #D1p1{
+    position: absolute;
+    top: 160px;
+    left: 375px;
+    font-size: 25px;
+  }
+  #D1s1:hover{
+    color: rgb(203, 15, 15);
+  }
+  #D1s2:hover{
+    color: rgb(203, 15, 15);
+  }
+ .D2{
+    height:200px ;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0px;
+    margin-top: 210px;
+    border-bottom: 1px solid rgb(223, 218, 218);
+     z-index: 1;
+  }
+  #D1d21{
+    height: 200px;
+    width: 13%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    left: 375px; 
+    
+    
+  }
+  #D1d21:hover{
+    border-bottom: solid 5px rgb(242, 49, 24);
+     color:rgb(242, 49, 24) ;
+     transform: scale(1.02);
+     font-family: cursive;
+    
+     
+  }
+  #D1d22{
+    height: 200px;
+    width: 13%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    left: 775px;
+  }
+  #D1d22:hover{
+    border-bottom: solid 5px rgb(242, 49, 24);
+    color:rgb(242, 49, 24) ;
+    transform: scale(1.02);
+    font-family: cursive;
+ }
+  #D1d23{
+    height: 200px;
+    width: 13%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    left: 1175px;
+  }
+  #D1d23:hover{
+    border-bottom: solid 5px rgb(242, 49, 24);
+    color:rgb(242, 49, 24) ;
+    transform: scale(1.02);
+    font-family: cursive;
+ }
+  #d121{
+    height: 120px;
+    width:120px;
+    background-color: rgb(250, 248, 248);
+    border: solid 1px rgb(250, 248, 248);
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+   
+  }
+  #d1im1{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  
+  }
+  #d1im1:hover{
+    transform: scale(1.6);
+    transition: all 1s;
+  }
+  #d1p1{
+    font-size: 42px;
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #d1p1:hover{
+    font-family: cursive;
+  }
+  #d122{
+    height: 120px;
+    width:120px;
+    background-color: rgb(250, 248, 248);
+    border: solid 1px rgb(250, 248, 248);
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    
+  }
+  #d1im2{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  #d1im2:hover{
+    transform: scale(1.6);
+    transition: all 1s;
+  }
+  #d1p2{
+    font-size: 42px;
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #d1p2:hover{
+    font-family: cursive;
+  }
+  #d123{
+    height: 120px;
+    width:120px;
+    background-color: rgb(250, 248, 248);
+    border: solid 1px rgb(250, 248, 248);
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+   
+  }
+  #d1im3{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  
+  }
+  #d1im3:hover{
+    transform: scale(1.6);
+    transition: all 1s;
+  }
+  #d1p3{
+    font-size: 42px;
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #d1p3:hover{
+    font-family: cursive;
+  }
+  .D3{
+    height:200px ;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0px;
+  
+   
+  }
+  #D3d1{
+    height: 70px;
+    width:6%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 60px;
+    left: 370px;
+    border-radius: 20px;
+  }
+  #D3bu1{
+    height: 70px;
+    width: 100%;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: solid 0.2px rgb(218, 211, 211);
+
+  }
+  #D3bu1:focus{
+    background-color: rgb(241, 68, 38);
+    color: azure;
+  }
+  #D3bu1:hover{
+    background-color: rgb(220, 218, 218);
+    transform: scale(1.02);
+    color: black;
+  }
+  #D3d2{
+    height: 70px;
+    width:6%;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    top: 60px;
+    left:570px;
+    border-radius: 20px;
+    border: 0px;
+  }
+  #D3bu2{
+    height: 70px;
+    width: 100%;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: solid 0.2px rgb(218, 211, 211);
+  }
+  #D3bu2:focus{
+    background-color: rgb(241, 68, 38);
+    color: azure;
+  }
+  #D3bu2:hover{
+    background-color: rgb(220, 218, 218);
+    transform: scale(1.02);
+  }
+  #D3d3{
+    height: 70px;
+    width:7%;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    top: 60px;
+    left:770px;
+    border-radius: 20px;
+  }
+  #D3bu3{
+    height: 70px;
+    width: 100%;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: solid 0.2px rgb(218, 211, 211);
+  }
+  #D3bu3:focus{
+    background-color: rgb(241, 68, 38);
+    color: azure;
+    
+  }
+  #D3bu3:hover{
+    background-color: rgb(220, 218, 218);
+    transform: scale(1.02);
+    color: black;
+  }
+  #D3d4{
+    height: 70px;
+    width:6%;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    top: 60px;
+    left:1000px;
+    border-radius: 20px;
+  }
+  #list1{
+    height: 70px;
+    width: 100%;
+    font-size: 30px;
+    border-radius: 20px;
+    border: solid 0.2px rgb(218, 211, 211);
+  }
+  #d3l1{
+    font-size: 50px;
+  }
+  #list1:hover{
+    background-color: rgb(220, 218, 218);
+    transform: scale(1.02);
+  }

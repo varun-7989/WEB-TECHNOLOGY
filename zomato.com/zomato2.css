@@ -1,0 +1,313 @@
+.D6{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+#D6h1{
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    position: absolute;
+    top: 50px;
+    left: 380px;
+}
+.D7{
+    height:800px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}
+.common{
+    height: 750px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+     position: relative;
+     border-radius: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+}
+.common:hover{
+  
+    box-shadow: 1px 1px 15px rgb(241, 239, 239),-1px 1px 15px rgb(241, 239, 239),1px -1px 15px rgb(241, 239, 239),-1px -1px 15px rgb(241, 239, 239);
+    transition: all 1s;
+    transform: scale(1.03);
+}
+#D71{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#d7im1{
+    height: 460px;
+    width: 92%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    
+}
+#d7M1{
+    height: 460px;
+    width: 100%;
+    border-radius: 30px;
+}
+#d71p1{
+    position: absolute;
+    left:25px;
+}
+
+#D72{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    font-size:30px;
+    color: rgb(102, 104, 107);
+}
+#d72p1{
+    position: absolute;
+    left: 25px;
+}
+#d72p2{
+    position: absolute;
+    left: 510px;
+}
+#D73{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 25px;
+    
+}
+#d73p1{
+    position: absolute;
+    left: 590px;
+}
+#D74{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 26px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    color: rgb(117, 120, 123);
+    border-top: solid 1px rgb(208, 202, 202);
+}
+#d74M1{
+    height: 40px;
+    width:100px;
+    position: absolute;
+    top: 680px;
+    left: 25px;
+}
+#d74p1{
+    position: absolute;
+    top: 645px;
+    left: 120px;
+}
+
+
+
+
+
+#D711{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#d71im1{
+    height: 460px;
+    width: 92%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    
+}
+#d71M1{
+    height: 460px;
+    width: 100%;
+    border-radius: 30px;
+}
+#d711p1{
+    position: absolute;
+    left:25px;
+}
+
+#D712{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    font-size:30px;
+    color: rgb(102, 104, 107);
+}
+#d712p1{
+    position: absolute;
+    left: 25px;
+}
+#d712p2{
+    position: absolute;
+    left: 510px;
+}
+#D713{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 25px;
+    
+}
+#d713p1{
+    position: absolute;
+    left: 590px;
+}
+#D714{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 26px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    color: rgb(117, 120, 123);
+    border-top: solid 1px rgb(208, 202, 202);
+}
+#d714M1{
+    height: 40px;
+    width:100px;
+    position: absolute;
+    top: 680px;
+    left: 25px;
+}
+#d714p1{
+    position: absolute;
+    top: 645px;
+    left: 120px;
+}
+
+
+
+#D721{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#d72im1{
+    height: 460px;
+    width: 92%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    
+}
+#d72M1{
+    height: 460px;
+    width: 100%;
+    border-radius: 30px;
+}
+#d721p1{
+    position: absolute;
+    left:25px;
+}
+
+#D722{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    font-size:30px;
+    color: rgb(102, 104, 107);
+}
+#d722p1{
+    position: absolute;
+    left: 25px;
+}
+#d722p2{
+    position: absolute;
+    left: 510px;
+}
+#D723{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 25px;
+    
+}
+#d723p1{
+    position: absolute;
+    left: 590px;
+}
+#D724{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 26px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    color: rgb(117, 120, 123);
+    border-top: solid 1px rgb(208, 202, 202);
+}
+#d724M1{
+    height: 40px;
+    width:100px;
+    position: absolute;
+    top: 680px;
+    left: 25px;
+}
+#d724p1{
+    position: absolute;
+    top: 645px;
+    left: 120px;
+}

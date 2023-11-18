@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="zomato.css">
+    <link rel="stylesheet" href="zomato1.css">
+    <link rel="stylesheet" href="zomato2.css">
+    <link rel="stylesheet" href="zomato3.css">
+    <link rel="stylesheet" href="zomato4.css">
+    <link rel="stylesheet" href="zomato5.css">
+    <link rel="stylesheet" href="zomato6.css">
+    <link rel="stylesheet" href="zomato7.css">
+    <link rel="stylesheet" href="zomato8.css">
+    <link rel="stylesheet" href="zomato9.css">
+</head>
+<body>
+    <div class="D1">
+      <div class="D1d1">
+        <img src="data:image/jpeg;base64,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" 
+        alt="" id="D1im2">
+        <select name="" id="list" >
+        <option value="West Bengal" id="lf">West Bengal</option> 
+        <option value="Telangana" id="lf1"><b>Telangana</b></option>
+        <option value="Andhra Pradesh" id="lf">Andhra Pradesh</option>
+        <option value="Assam" id="lf">Assam</option>
+        <option value="Bihar" id="lf">Bihar</option>
+        <option value="Chhattisgarh" id="lf">Chhattisgarh</option>
+        <option value="Goa" id="lf">Goa</option>
+        <option value="Gujarat" id="lf">Gujarat</option>
+        <option value="Haryana" id="lf">Haryana</option>
+        <option value="Himachal Pradesh" id="lf">Himachal Pradesh</option>
+        <option value="Jammu & Kashmir" id="lf">Jammu & Kashmir</option>
+        <option value="Jharkhand" id="lf">Jharkhand</option>
+        <option value="Karnataka" id="lf">Karnataka</option>
+        <option value="Kerala" id="lf">Kerala</option>
+        <option value="Madhya Pradesh" id="lf">Madhya Pradesh</option>
+        <option value="Maharashtra" id="lf">Maharashtra</option>
+        <option value="Manipur" id="lf">Manipur</option>
+        <option value="Meghalaya" id="lf">Meghalaya</option>
+        <option value="Mizoram" id="lf">Mizoram</option>
+        <option value="Nagaland"id="lf">Nagaland</option>
+        <option value="Odisha" id="lf">Odisha</option>
+        <option value="Punjab" id="lf">Punjab</option>
+        <option value="Rajasthan" id="lf">Rajasthan</option>
+        <option value="Sikkim" id="lf">Sikkim</option>
+        <option value="TamilNadu" id="lf">TamilNadu</option>
+        <option value="Tripura" id="lf">Tripura</option>
+        <option value="Uttar Pradesh" id="lf">Uttar Pradesh</option>
+        <option value="Uttarkhand" id="lf">Uttarkhand</option>
+         
+    </select>
+        <div class="D1d11">  
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/709px-Vector_search_icon.svg.png" alt="" id="D1im1"></div>
+        <input type="search" placeholder="Search for restaurent, Cuisine or a dish" id="D1id1"> 
+      </div>
+
+      <button id="D1bu1" >Log in</button>
+      <button id="D1bu2" >Sign Up</button>
+      <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="" id="D1im3">
+      <p id="D1p1"><a href="https://www.zomato.com/india"><span id="D1s1">Home</span> </a>/ <span id="D1s2">India</span> / Kolkata Restaurent</p>
+      
+    </div>
+
+    <div class="D2">
+    <div id="D1d21"> <div id="d121"> <img src="	https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png" alt="" id="d1im1"> </div><p id="d1p1">Delivery</p></div>
+    <div id="D1d22"> <a href="https://www.zomato.com/kolkata/dine-out"><div id="d122"><img src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png" alt="" id="d1im2"></div> </a> <p id="d1p2">Dining Out</p></div>
+    <div id="D1d23"> <a href="https://www.zomato.com/kolkata/drinks-and-nightlife"><div id="d123"><img src="	https://b.zmtcdn.com/data/o2_assets/855687dc64a5e06d737dae45b7f6a13b1616149818.png" alt="" id="d1im3"></div></a> <p id="d1p3">Nightlife</p></div>
+    </div>
+
+    <div class="D3">
+      <div id="D3d1"> <button id="D3bu1">Filters</button> </div> 
+      <a href="https://www.zomato.com/kolkata/delivery?meta_filter=100354"><div id="D3d2"> <button id="D3bu2">Pure Veg</button> </div></a> 
+      <a href="https://www.zomato.com/kolkata/delivery?rating_range=4.0-5.0 "><div id="D3d3"> <button id="D3bu3">Rating: 4.0+</button> </div></a> 
+      
+   <div id="D3d4"> 
+      <select name="" id="list1" >
+        <option id="d3li" value="Cusine">Cusine</option>
+        <option id="d3li" value="Abruzzese"> Abruzzese </option>
+        <option id="d3li" value="Aceh">Aceh</option>
+        <option id="d3li" value="Aegean">Aegean</option>
+        <option id="d3li" value="Afghan">Afghan</option>
+        <option id="d3li" value="Afghani">Afghani</option>
+        <option id="d3li" value="African">African</option>
+        <option id="d3li" value="Agritourism">Agritourism</option>
+        <option id="d3li" value="Alentejana">Alentejana</option>
+        <option id="d3li" value="Biryani">Biryani</option>
+        <option id="d3li" value="Bakery">Bakery</option>
+        <option id="d3li" value="BBQ">BBQ</option>
+        <option id="d3li" value="Belgian">Belgian</option>
+        <option id="d3li" value="Bengali">Bengali</option>
+        <option id="d3li" value="Bihari">Bihari</option>
+        <option id="d3li" value="Brazilian">Brazilian</option>
+        <option id="d3li" value="Bubble Tea">Bubble Tea</option>
+        <option id="d3li" value="cake">cake</option>
+        <option id="d3li" value="Calabrian">Calabrian</option>
+        <option id="d3li" value="California">California</option>
+        <option id="d3li" value="Cambodian">Cambodian</option>
+        <option id="d3li" value="Canadian">Canadian</option>
+         
+    </select>
+  </div>
+    </div>
+
+    <div class="D4">
+      <h3 id="D4h11">Inspiration for your first order</h3>
+      <div id="D4d1"> <a href="https://www.zomato.com/kolkata/restaurants?place_name=Kolkata&dishv2_id=30308"><img src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png" alt="" id="D4im1"></a> <p id="D4p1">Biryani</p></div>
+      <div id="D4d2"> <a href="https://www.zomato.com/kolkata/restaurants?place_name=Kolkata&dishv2_id=55280"><img src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png" alt="" id="D4im2"></a>  <p id="D4p2">Chicken</p></div>
+      <div id="D4d3"> <a href="https://www.zomato.com/kolkata/restaurants?place_name=Kolkata&dishv2_id=56691"><img src="https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png" alt="" id="D4im3"></a> <p id="D4p3">Rolls</p></div>
+      <div id="D4d4"> <a href="https://www.zomato.com/kolkata/restaurants?place_name=Kolkata&dishv2_id=35798"><img src="https://b.zmtcdn.com/data/o2_assets/019409fe8f838312214d9211be010ef31678798444.jpeg" alt="" id="D4im4"></a> <p id="D4p4">North Indian</p> </div>
+      <div id="D4d5"> <a href="https://www.zomato.com/kolkata/restaurants?place_name=Kolkata&dishv2_id=35301"><img src="https://b.zmtcdn.com/data/o2_assets/e444ade83eb22360b6ca79e6e777955f1632716661.png" alt="" id="D4im5" ></a> <p id="D4p5">Fried rice</p></div>
+      <div id="D4d6"> <a href="https://www.zomato.com/kolkata/restaurants?place_name=Kolkata&dishv2_id=9514"> <img src="https://b.zmtcdn.com/data/dish_images/2de9197c25059c0d61efc8566c6919961615960350.png" alt="" id="D4im6"></a> <p id="D4p6">Chilli Chicken</p></div>
+    </div>
+
+    <div class="D5">
+      <h3 id="D5h11"> Top brands for you</h3>
+      <div id="D5d1"> <a href="www.zomato.com/kolkata/wow-momo-2-sealdah-area/order"> <img src="https://b.zmtcdn.com/data/brand_creatives/logos/3a58b67479fd290ff96996002438736e_1672389253.png?output-format=webp" alt="" id="D5im1"> </a> <p id="D5p1">WOW! Momo      <br><span id="D5sp1">33 min</span></p> </div>
+      <div id="D5d2"> <a href="https://www.zomato.com/kolkata/kfc-sealdah-area/order"> <img src="https://b.zmtcdn.com/data/brand_creatives/logos/560b209a689eefa9feb367b5d5604097_1611382952.png?output-format=webp" alt="" id="D5im2"> </a> <p id="D5p2">KFC            <br><span id="D5sp2">23 min</span></p> </div>
+      <div id="D5d3"> <a href="https://www.zomato.com/kolkata/chowman-hatibagan/order"> <img src="https://b.zmtcdn.com/data/brand_creatives/logos/b5068f3dfc0118b7b8a3cd0429ac953f_1696570852.png?output-format=webp" alt="" id="D5im3"> </a> <p id="D5p3">Chowman        <br><span id="D5sp3">34 min</span></p> </div>
+      <div id="D5d4"> <a href="https://www.zomato.com/kolkata/arsalan-park-street-area/order"> <img src="https://b.zmtcdn.com/data/brand_creatives/logos/fe5db95ae85292933996d4043f600d3b_1611320738.png?output-format=webp" alt="" id="D5im4"> </a> <p id="D5p4">Arsalan        <br><span id="D5sp4">40 min</span></p> </div>
+      <div id="D5d5"> <a href="https://www.zomato.com/kolkata/burger-king-new-market-area/order"> <img src="https://b.zmtcdn.com/data/brand_creatives/logos/6a11fd0f30c9fd9ceaff2f5b21f61d23_1617188103.png?output-format=webp" alt="" id="D5im5"> </a> <p id="D5p5">Burger King    <br><span id="D5sp5">37 min</span></p> </div>
+      <div id="D5d6"> <a href="https://www.zomato.com/kolkata/gupta-brothers-bara-bazar/order"> <img src="https://b.zmtcdn.com/data/brand_creatives/logos/a2531dc570196c0cd9322814eb010d94_1605102324.png?output-format=webp" alt="" id="D5im6"> </a> <p id="D5p6">Gupta Brothers <br><span id="D5sp6">30 min</span></p> </div>
+
+    </div>
+    
+    <div class="D6">
+          <h1 id="D6h1">Delivery Restaurants in Kolkata</h1>
+    </div>
+
+    <div class="D7">
+        <div class="common child1">
+          <div id="d7im1"><img src="https://b.zmtcdn.com/data/pictures/chains/5/21495/a7e3f83dd2c5a5d7805d0ad1270fe8e5_o2_featured_v2.jpg" alt="" id="d7M1"></div>
+          <div id="D71"> 
+            <p id="d71p1">Chowman</p>
+          </div>
+          <div id="D72">
+            <p id="d72p1">Chinese, Seafood, Sichuan...</p> 
+            <p id="d72p2">₹250 for one</p>
+          </div>
+          <div id="D73">
+            <p id="d73p1">39 min</p>
+          </div>
+          <div id="D74">
+            <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d74M1">
+            <p id="d74p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+          </div>
+        </div>
+
+
+        <div class="common child2">
+          <div id="d71im1"><img src="https://b.zmtcdn.com/data/pictures/2/20491472/1c423b21a1252a8b611d5e130e6fe821_o2_featured_v2.jpg" alt="" id="d71M1"></div>
+          <div id="D711"> 
+            <p id="d711p1">Artily</p>
+          </div>
+          <div id="D712">
+            <p id="d712p1">Cafe, Sandwich, Wraps, M...</p> 
+            <p id="d712p2">₹200 for one</p>
+          </div>
+          <div id="D713">
+            <p id="d713p1">38 min</p>
+          </div>
+          <div id="D714">
+            <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d714M1">
+            <p id="d714p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+          </div>
+        </div>
+
+        <div class="common child3">
+          <div id="d72im1"><img src="https://b.zmtcdn.com/data/pictures/chains/3/19389263/75fb72db1f40ce9c2d894f0c431c1ea9_o2_featured_v2.jpg" alt="" id="d72M1"></div>
+          <div id="D721"> 
+            <p id="d721p1">Kwality Wall's Frozen Dessert</p>
+          </div>
+          <div id="D722">
+            <p id="d722p1">Ice Cream</p> 
+            <p id="d722p2">₹200 for one</p>
+          </div>
+          <div id="D723">
+            <p id="d723p1">24 min</p>
+          </div>
+          <div id="D724">
+            <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d724M1">
+            <p id="d724p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+          </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="D8">
+      <div class="common child1">
+        <div id="d8im1"><img src="https://b.zmtcdn.com/data/pictures/9/20440579/3a62909d29f9efad397e18ea003f269f_o2_featured_v2.jpg" alt="" id="d8M1"></div>
+        <div id="D81"> 
+          <p id="d81p1">Silver Spoon</p>
+        </div>
+        <div id="D82">
+          <p id="d82p1">Chinese, Seafood, Momos...</p> 
+          <p id="d82p2">₹200 for one</p>
+        </div>
+        <div id="D83">
+          <p id="d83p1">44 min</p>
+        </div>
+        <div id="D84">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d84M1">
+          <p id="d84p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+
+
+      <div class="common child2">
+        <div id="d81im1"><img src="https://b.zmtcdn.com/data/pictures/chains/6/21176/3eaa34537c383cd11672dfbc8f55bd33_o2_featured_v2.jpg" alt="" id="d81M1"></div>
+        <div id="D811"> 
+          <p id="d811p1">Nizam's Since 1932</p>
+        </div>
+        <div id="D812">
+          <p id="d812p1">Boryani, Northindian, Rolls...</p> 
+          <p id="d812p2">₹200 for one</p>
+        </div>
+        <div id="D813">
+          <p id="d813p1">45 min</p>
+        </div>
+        <div id="D814">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d814M1">
+          <p id="d814p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+
+      <div class="common child3">
+        <div id="d82im1"><img src="https://b.zmtcdn.com/data/dish_photos/299/2672ed4aaffdf5dd3572124ca0c1f299.jpg" alt="" id="d82M1"></div>
+        <div id="D821"> 
+          <p id="d821p1">AI Baik Fast Food Corner</p>
+        </div>
+        <div id="D822">
+          <p id="d822p1">Biryani, Rolls, Northindian...</p> 
+          <p id="d822p2">₹200 for one</p>
+        </div>
+        <div id="D823">
+          <p id="d823p1">38 min</p>
+        </div>
+        <div id="D824">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d824M1">
+          <p id="d824p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+
+  </div>
+
+
+
+
+  
+  <div class="D9">
+    <div class="common child1">
+      <div id="d9im1"><img src="https://b.zmtcdn.com/data/pictures/2/19153362/2cdc7c2852915b6cc7456c6430c593b8_o2_featured_v2.jpg" alt="" id="d9M1"></div>
+      <div id="D91"> 
+        <p id="d91p1">Rahat Biryani</p>
+      </div>
+      <div id="D92">
+        <p id="d92p1">Biryani, Northindian...</p> 
+        <p id="d92p2">₹150 for one</p>
+      </div>
+      <div id="D93">
+        <p id="d93p1">45 min</p>
+      </div>
+      <div id="D94">
+        <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d94M1">
+        <p id="d94p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+      </div>
+    </div>
+
+
+    <div class="common child2">
+      <div id="d91im1"><img src="https://b.zmtcdn.com/data/pictures/4/21074/313a0e08e954b896f6da4ccce78e2155_o2_featured_v2.jpg" alt="" id="d91M1"></div>
+      <div id="D911"> 
+        <p id="d911p1">New Arafat Reastaurant & cate...</p>
+      </div>
+      <div id="D912">
+        <p id="d912p1">Northindian, Chinese, Ben...</p> 
+        <p id="d912p2">₹150 for one</p>
+      </div>
+      <div id="D913">
+        <p id="d913p1">29 min</p>
+      </div>
+      <div id="D914">
+        <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d914M1">
+        <p id="d914p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+      </div>
+    </div>
+
+    <div class="common child3">
+      <div id="d92im1"><img src="https://b.zmtcdn.com/data/pictures/chains/9/19210809/6c223a2723679a1a8719ddf751c54db9_o2_featured_v2.jpg" alt="" id="d92M1"></div>
+      <div id="D921"> 
+        <p id="d921p1">Dosa Coffee</p>
+      </div>
+      <div id="D922">
+        <p id="d922p1">South Indian, Beverages</p> 
+        <p id="d922p2">₹150 for one</p>
+      </div>
+      <div id="D923">
+        <p id="d923p1">36 min</p>
+      </div>
+      <div id="D924">
+        <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d924M1">
+        <p id="d924p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div class="D10">
+      <div class="common child1">
+        <div id="d10im1"><img src="https://b.zmtcdn.com/data/pictures/chains/2/24892/382dbe119e9cc02b3cccedf2a9060235_featured_v2.jpg" alt="" id="d10M1"></div>
+        <div id="D101"> 
+          <p id="d101p1">Icy Fusion</p>
+        </div>
+        <div id="D102">
+          <p id="d102p1">Ice Cream, Dessarts, Pizza...</p> 
+          <p id="d102p2">₹300 for one</p>
+        </div>
+        <div id="D103">
+          <p id="d103p1">42 min</p>
+        </div>
+        <div id="D104">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d104M1">
+          <p id="d104p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+  
+  
+      <div class="common child2">
+        <div id="d101im1"><img src="https://b.zmtcdn.com/data/pictures/2/19567622/faf358a587bffd9bad01a5427578ca02_o2_featured_v2.jpg" alt="" id="d101M1"></div>
+        <div id="D1011"> 
+          <p id="d1011p1">Black Brick cafe</p>
+        </div>
+        <div id="D1012">
+          <p id="d1012p1">Cafe, American, Italian, Ch..</p> 
+          <p id="d1012p2">₹300 for one</p>
+        </div>
+        <div id="D1013">
+          <p id="d1013p1">45 min</p>
+        </div>
+        <div id="D1014">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d1014M1">
+          <p id="d1014p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+  
+      <div class="common child3">
+        <div id="d102im1"><img src="https://b.zmtcdn.com/data/pictures/chains/4/18608704/f03389b03d585f6ff18fca0c1bde62ae_o2_featured_v2.jpg" alt="" id="d102M1"></div>
+        <div id="D1021"> 
+          <p id="d1021p1">Mintelaa</p>
+        </div>
+        <div id="D1022">
+          <p id="d1022p1">Cafe, North indian, Chines...</p> 
+          <p id="d1022p2">₹350 for one</p>
+        </div>
+        <div id="D1023">
+          <p id="d1023p1">48 min</p>
+        </div>
+        <div id="D1024">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d1024M1">
+          <p id="d1024p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="D11">
+      <div class="common child1">
+        <div id="d11im1"><img src="https://b.zmtcdn.com/data/pictures/chains/8/19090678/c4488f283f757bab55a469e3bf875545_o2_featured_v2.jpg" alt="" id="d11M1"></div>
+        <div id="D111"> 
+          <p id="d111p1">The Good Bowl</p>
+        </div>
+        <div id="D112">
+          <p id="d112p1">North indian, Pasta, Italian...</p> 
+          <p id="d112p2">₹200 for one</p>
+        </div>
+        <div id="D113">
+          <p id="d113p1">32 min</p>
+        </div>
+        <div id="D114">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d114M1">
+          <p id="d114p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+  
+  
+      <div class="common child2">
+        <div id="d111im1"><img src="https://b.zmtcdn.com/data/pictures/chains/3/18343753/41f818efedaf624935956e19cc20b218_o2_featured_v2.jpg" alt="" id="d111M1"></div>
+        <div id="D1111"> 
+          <p id="d1111p1">Keventers Milkshakes & Dess..</p>
+        </div>
+        <div id="D1112">
+          <p id="d1112p1">Beverages, Shakes, Ice Cre...</p> 
+          <p id="d1112p2">₹250 for one</p>
+        </div>
+        <div id="D1113">
+          <p id="d1113p1">37 min</p>
+        </div>
+        <div id="D1114">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d1114M1">
+          <p id="d1114p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+  
+      <div class="common child3">
+        <div id="d112im1"><img src="https://b.zmtcdn.com/data/pictures/chains/7/20287/08e625335d5ee1de816e8c9d6d3bf25c_o2_featured_v2.jpg" alt="" id="d112M1"></div>
+        <div id="D1121"> 
+          <p id="d1121p1">KFC</p>
+        </div>
+        <div id="D1122">
+          <p id="d1122p1">Fast Food, Burger, Biryani...</p> 
+          <p id="d1122p2">₹200 for one</p>
+        </div>
+        <div id="D1123">
+          <p id="d1123p1">33 min</p>
+        </div>
+        <div id="D1124">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d1124M1">
+          <p id="d1124p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="D12">
+      <div class="common child1">
+        <div id="d12im1"><img src="https://b.zmtcdn.com/data/pictures/chains/4/25234/19840ba6ecc1fcf8a9358f5572e31cad_o2_featured_v2.jpg" alt="" id="d12M1"></div>
+        <div id="D121"> 
+          <p id="d121p1">Mio Amore</p>
+        </div>
+        <div id="D122">
+          <p id="d122p1">Bakery, Desserts, Fas...</p> 
+          <p id="d122p2">₹200 for one</p>
+        </div>
+        <div id="D123">
+          <p id="d123p1">27 min</p>
+        </div>
+        <div id="D124">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d124M1">
+          <p id="d124p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+  
+  
+      <div class="common child2">
+        <div id="d121im1"><img src="https://b.zmtcdn.com/data/pictures/chains/7/20407/edc92b9e7877ea851a3d6f1190d1580f_o2_featured_v2.jpg" alt="" id="d121M1"></div>
+        <div id="D1211"> 
+          <p id="d1211p1">Pizza Hut</p>
+        </div>
+        <div id="D1212">
+          <p id="d1212p1">Pizza, Pasta, Italian, Fa...</p> 
+          <p id="d1212p2">₹200 for one</p>
+        </div>
+        <div id="D1213">
+          <p id="d1213p1">35 min</p>
+        </div>
+        <div id="D1214">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d1214M1">
+          <p id="d1214p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+  
+      <div class="common child3">
+        <div id="d122im1"><img src="https://b.zmtcdn.com/data/pictures/chains/8/20728/f31733dfcef4c1edb388b77619e07a59_o2_featured_v2.jpg" alt="" id="d122M1"></div>
+        <div id="D1221"> 
+          <p id="d1221p1">Subway</p>
+        </div>
+        <div id="D1222">
+          <p id="d1222p1">Healthy Food, Sandwich, ...</p> 
+          <p id="d1222p2">₹150 for one</p>
+        </div>
+        <div id="D1223">
+          <p id="d1223p1">43 min</p>
+        </div>
+        <div id="D1224">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d1224M1">
+          <p id="d1224p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    
+    <div class="D13">
+      <div class="common child1">
+        <div id="d13im1"><img src="https://b.zmtcdn.com/data/pictures/9/21539/47d96dea1966f978c8e9c7331c649194_o2_featured_v2.jpg" alt="" id="d13M1"></div>
+        <div id="D131"> 
+          <p id="d131p1">McDonald's</p>
+        </div>
+        <div id="D132">
+          <p id="d132p1">Burger, Wraps, Fast Food...</p> 
+          <p id="d132p2">₹200 for one</p>
+        </div>
+        <div id="D133">
+          <p id="d133p1">45 min</p>
+        </div>
+        <div id="D134">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d134M1">
+          <p id="d134p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+  
+  
+      <div class="common child2">
+        <div id="d131im1"><img src="https://b.zmtcdn.com/data/pictures/chains/5/18573295/bd6d35499c5fb33bea73c32bbf4b0237_o2_featured_v2.jpg" alt="" id="d131M1"></div>
+        <div id="D1311"> 
+          <p id="d1311p1">The Belgian Waffle Co.</p>
+        </div>
+        <div id="D1312">
+          <p id="d1312p1">Waffle, Pancake, Ice Crea...</p> 
+          <p id="d1312p2">₹200 for one</p>
+        </div>
+        <div id="D1313">
+          <p id="d1313p1">38 min</p>
+        </div>
+        <div id="D1314">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d1314M1">
+          <p id="d1314p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+  
+      <div class="common child3">
+        <div id="d132im1"><img src="https://b.zmtcdn.com/data/pictures/chains/6/20976/ec37a79363ae4ea88c3be9ccd7989873_o2_featured_v2.jpg" alt="" id="d132M1"></div>
+        <div id="D1321"> 
+          <p id="d1321p1">Baskin Robbins Happyness Sh...</p>
+        </div>
+        <div id="D1322">
+          <p id="d1322p1">Shake, Beverages, Ice Cre...</p> 
+          <p id="d1322p2">₹200 for one</p>
+        </div>
+        <div id="D1323">
+          <p id="d1323p1">31 min</p>
+        </div>
+        <div id="D1324">
+          <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png" alt="" id="d1324M1">
+          <p id="d1324p1">&nbsp;&nbsp;Follow all Max Safety measures to ensure <br>&nbsp; your food safe </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="D14">
+        <div class="D141"> <h1 id="D14h1">Explore options near me</h1></div>
+
+        <details id="d14d1"><summary id="d14sum1">Popular Cuisines Near Me</summary>&nbsp;
+          • <span id="d14span1">Bakery food near me </span>
+          • <span id="d14span1">Bengali food near me</span> 
+          • <span id="d14span1">Beverages food near me</span>
+          • <span id="d14span1">Biryani food near me</span>
+          • <span id="d14span1">Burger food near me</span>
+          • <span id="d14span1">Chinese food near me</span>
+          • <span id="d14span1">Continental food near me</span>
+          • <span id="d14span1">Desserts food near me</span>
+          • <span id="d14span1">Kebab food near me</span>
+          • <span id="d14span1">Momos food near me</span>
+          • <span id="d14span1">Mughlai food near me</span>
+          • <span id="d14span1">North Indian food near me</span>
+          • <span id="d14span1">Pizza food near me</span>
+          • <span id="d14span1">Rolls food near me</span>
+          • <span id="d14span1">Sandwich food near me</span>
+          • <span id="d14span1">Seafood food near me</span>
+          • <span id="d14span1">Shake food near me</span>
+          • <span id="d14span1">Sichuan food near me</span>
+          • <span id="d14span1">South Indian food near me</span>
+          • <span id="d14span1">Street food near me</span>
+
+          </details>
+
+
+          <details id="d14d2"><summary id="d14sum2">Popular restaurant types near me</summary>&nbsp;
+            • <span id="d14span2">Bakeries near me</span>
+            • <span id="d14span2">Bars near me</span>
+            • <span id="d14span2">Beverage Shops near me</span>
+            • <span id="d14span2">Bhojanalya near me</span>
+            • <span id="d14span2">Cafés near me</span>
+            • <span id="d14span2">Casual Dining near me</span>
+            • <span id="d14span2">Clubs near me</span>
+            • <span id="d14span2">Cocktail Bars near me</span>
+            • <span id="d14span2">Confectioneries near me</span>
+            • <span id="d14span2">Dessert Parlors near me</span>
+            • <span id="d14span2">Fine Dining near me</span>
+            • <span id="d14span2">Kiosks near me</span>
+            • <span id="d14span2">Lounges near me</span>
+            • <span id="d14span2">Food Trucks near me</span>
+            • <span id="d14span2">Paan Shop near me</span>
+            • <span id="d14span2">Microbreweries near me</span>
+            • <span id="d14span2">Shake food near me</span>
+            • <span id="d14span2">Pubs near me</span>
+            • <span id="d14span2">Sweet Shops near me</span>
+            • <span id="d14span2">Quick Bites near me</span>
+  
+            </details>
+
+
+            <details id="d14d3"><summary id="d14sum3">Top Restaurant Chains</summary>&nbsp;
+              • <span id="d14span3">Burger king</span>
+              • <span id="d14span3">Burger Singh</span>
+              • <span id="d14span3">Domino's</span>
+              • <span id="d14span3">Haldiram's</span>
+              • <span id="d14span3">KFC</span>
+              </details>
+
+
+              <details id="d14d4"><summary id="d14sum4">Cities We Deliver To</summary>&nbsp;
+             
+               <li style="cursor: pointer;">
+                <ul id="listd141">
+                  <li id="li1">Delhi NCR</li>
+                  <li id="li1">Kolkata</li>
+                  <li id="li1">Mumbai</li>
+                  <li id="li1">Bengaluru</li>
+                  <li id="li1">Pune</li>
+                  <li id="li1">Hyderabad</li>
+                  <li id="li1">Chennai</li>
+                  <li id="li1">Lucknow</li>
+                  <li id="li1">Kochi</li>
+                  <li id="li1">Jaipur</li>
+                </ul>
+              </li>
+          <li style="cursor: pointer;">
+                <ul id="listd142" >
+                  <li id="li2">Ahmedabad</li>
+                  <li id="li2">Chandigarh</li>
+                  <li id="li2">Goa</li>
+                  <li id="li2">Indore</li>
+                  <li id="li2">Gangtok</li>
+                  <li id="li2">Nashik</li>
+                  <li id="li2">Ooty</li>
+                  <li id="li2">Shimla</li>
+                  <li id="li2">Ludhiana</li>
+                  <li id="li2">Guwahati</li>
+                </ul>
+              </li>
+
+              <li style="cursor: pointer;">
+                <ul id="listd143">
+                  <li id="li3"> Amritsar</li>
+                  <li id="li3"> Kanpur</li>
+                  <li id="li3">Allahabad</li>
+                  <li id="li3">Aurangabad</li>
+                  <li id="li3">Bhopal</li>
+                  <li id="li3">Ranchi</li>
+                  <li id="li3">Visakhapatnam</li>
+                  <li id="li3">Bhubaneswar</li>
+                  <li id="li3">Coimbatore</li>
+                  <li id="li3">Mangalore</li>
+                </ul>
+              </li>
+
+              <li style="cursor: pointer;">
+                <ul id="listd144">
+                  <li id="li4">Vadodara</li>
+                  <li id="li4">Nagpur</li>
+                  <li id="li4">Agra</li>
+                  <li id="li4">Dehradun</li>
+                  <li id="li4">Mysore</li>
+                  <li id="li4">Puducherry</li>
+                  <li id="li4">Surat</li>
+                  <li id="li4">Varanasi</li>
+                  <li id="li4">PatnaUdaipur</li>
+                  <li id="li4">Srinagar</li>
+                </ul>
+              </li>
+              <li style="cursor: pointer;">
+                <ul id="listd145">
+                  <li id="li5">Khammam</li>
+                  <li id="li5">Neemrana</li>
+                  <li id="li5">Karimnagar</li>
+                  <li id="li5">Trivandrum</li>
+                  <li id="li5">Haridwar</li>
+                  <li id="li5">Warangal</li>
+                  <li id="li5">Rajkot</li>
+                  <li id="li5">Madurai</li>
+                  <li id="li5">Hanmakonda</li>
+                  <li id="li5">Vijayawada</li>
+                </ul>
+              </li>
+                </details>
+
+                <div class="D15" style="cursor: pointer;">
+
+                  <div id="D15n1">
+                    <div id="D15n11"><img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" alt="" id="D15n11m1"></div>
+                    <div id="D15n12" style="cursor: pointer;">
+                      <select name="" id="D15list1" style="cursor: pointer;">
+                        <option value="India"> India</option>
+                        <option value="USA">USA</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Italy">Italy</option>
+                        <option value="New Zealand">New Zealand</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Slovakia">Slovakia</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="Ireland">Ireland</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Poland">Poland</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Sri Lanka">Sri Lanka</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="Lebanon">Lebanon</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Qatar">Qatar</option>
+                        <option value="South Africa">South Africa</option>
+                        <option value="UAE">UAE</option>
+                        <option value="Czech Republic">Czech Republic</option>
+                      </select>
+
+                      <select name="" id="D15list2" style="cursor: pointer;">
+                        <option value="English">English</option>
+                        <option value="Turkce">Turkce</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Portugues(BR)">Portugues(BR)</option>
+                        <option value="Indonesian">Indonesian</option>
+                        <option value="Portugues(PT)">Portugues(PT)</option>
+                        <option value="Espanol">Espanol</option>
+                        <option value="Cestina">Cestina</option>
+                        <option value="Slovencina">Slovencina</option>
+                        <option value="Polish">Polish</option>
+                        <option value="Italian">Italian</option>
+                        <option value="Vietnamese">Vietnamese</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div id="D15n2">
+                      <div class="common1 child1">
+                        <li>
+                          <ul>
+                            <li><h4>ABOUT ZOMATO</h4></li>
+                            <li id="li10">Who We Are</li>
+                            <li id="li10">Blog</li>
+                            <li id="li10">Work With Us</li>
+                            <li id="li10">Investor Relations</li>
+                            <li id="li10">Report Fraud</li>
+                            <li id="li10">Press Kit</li>
+                            <li id="li10">Contact Us</li>
+                          </ul>
+                        </li>
+                      </div>
+                      <div class="common1 child2">
+                        <li id="LI1">
+                          <ul>
+                            <li><h4>ZOMAVERSE</h4></li>
+                            <li id="li11">Zomato</li>
+                            <li id="li11">Blinkit</li>
+                            <li id="li11">Feeding India</li>
+                            <li id="li11">Hyperpure</li>
+                            <li id="li11">Zomaland</li>
+                          </ul>
+                        </li>
+                      </div>
+                      <div class="common1 child3">
+                        <li>
+                          <ul>
+                            <li><h4>FOR RESTAURANTS</h4></li>
+                            <li id="li12">Partner With Us</li>
+                            <li id="li12">Apps For You</li>
+                            &nbsp;
+                            <li><h4>FOR ENTERPRISES</h4></li>
+                            <li id="li12">Zomato For Enterprise</li>
+                          </ul>
+                        </li>
+                      </div>
+                      <div class="common1 child4">
+                        <li id="LI2">
+                          <ul>
+                            <li><h4>LEARN MORE</h4></li>
+                            <li id="li13">Privacy</li>
+                            <li id="li13">Security</li>
+                            <li id="li13">Terms</li>
+                            <li id="li13">Sitemap</li>
+                          </ul>
+                        </li>
+                      </div>
+                      <div class="common1 child5">
+                        <li id="LI2">
+                          <ul>
+                            <li><h4>SOCIAL LINKS</h4></li>
+                            <div id="d1511"> 
+                              <a href="https://www.instagram.com/zomato/"><img src="https://icons.veryicon.com/png/o/internet--web/color-social-media-icon/instagram-47.png" alt="" id="d15im1"> </a>
+                              <a href="https://in.linkedin.com/company/zomato"> <img src="https://th.bing.com/th/id/R.163eb92efe2088484d0b66199ca96690?rik=qg0YduR50l04aQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_45506.png&ehk=p3D%2btZlTuJTmDynvv0QpfJmlBA6BLO%2fm48VEX%2fFjAp8%3d&risl=&pid=ImgRaw&r=0" alt="" id="d15im2"></a>
+                              <a href="https://www.facebook.com/zomato"><img src="https://th.bing.com/th/id/R.c097fa835c0f5aaf43d1d7a582530d91?rik=ivGUaGDrPMAXXA&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2ffacebook-transparent-icon%2ffacebook-transparent-icon-9.png&ehk=xECl8P00BQ%2fHEipmhT0BBFBKPs9Mnv1E01aIm13Pw44%3d&risl=&pid=ImgRaw&r=0" alt="" id="d15im3"></a>
+                              <a href="https://www.youtube.com/zomato"><img src="https://th.bing.com/th/id/R.32a6f64f1fdbeaa0906d7b5f2085b629?rik=v0ZuN%2ftVWdGcGw&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2ftransparent-youtube-icon%2ftransparent-youtube-icon-7.png&ehk=XmXEmVAA1zLOeHC%2bnFf00IqWOBAQorzoaDy3m0zFi5E%3d&risl=&pid=ImgRaw&r=0" alt="" id="d15im4"></a>
+                              <a href="https://twitter.com/zomato"><img src="https://th.bing.com/th/id/R.8eb68c7065e5057c9314f335d1bcb4a6?rik=jN4%2f3c2j9%2fNquA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2ftwitter-png-twitter-icon-1600.png&ehk=cfVuY5vaxmKssnSiLi2qsApgVuOQ2a3R0fEel7T0mJk%3d&risl=&pid=ImgRaw&r=0" alt="" id="d15im5"></a>
+                            </div>
+
+                            <div id="d1512">
+                              <a href="https://bnc.lt/download-zomato-ios"><img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="" id="ios"></a>  
+                            </div>
+                            <div id="d1513">
+                              <a href="https://bnc.lt/download-z-android"><img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="" id="playstore"></a>
+                            </div>
+
+                          </ul>
+                        </li>
+                      </div>
+                  </div>
+
+                  <div id="D15n3">
+                      <hr id="hr1">
+                      <p id="D15n3p1">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. <br>2008-2023 © Zomato™ Ltd. All rights reserved.</p>
+                  </div>
+
+                </div>
+    </div>
+
+  
+</body>
+</html>
